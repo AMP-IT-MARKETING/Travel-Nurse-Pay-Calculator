@@ -1,4 +1,3 @@
-
 import React, { useState, useMemo, useCallback } from 'react';
 import { PayPackage, CalculationResult, OTModel } from './types';
 import { calculatePackage } from './services/calculationService';
@@ -76,7 +75,7 @@ const App: React.FC = () => {
               <CalculatorIcon className="w-6 h-6 text-white" />
             </div>
             <div>
-              <h1 className="text-xl font-semibold text-[#137D79] uppercase tracking-wider" style={{fontFamily: "'Source Sans 3', sans-serif"}}>Advantage</h1>
+              <h1 className="text-xl font-semibold text-[#137D79]" style={{fontFamily: "'Source Sans 3', sans-serif"}}>Advantage Medical Professionals</h1>
               <p className="text-sm text-gray-500" style={{fontFamily: "'Source Sans 3', sans-serif"}}>Pay Package Calculator</p>
             </div>
           </div>
